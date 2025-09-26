@@ -7,21 +7,21 @@
 
 ## 👫 Your Best Coding Friends <a name='coding'></a>
 
-> [!Notice]
+> [!Note]
 >
-> It's a pity that I haven't found a Chinese font that can adapt well to `Go Mono` yet.
+> Finally, I found a font that matches well with `Source Han Sans TC`.
 >
-> Now, let's using `Source Han Sans TC` instead first.
+> It's `M Plus Code Latin 50`.
 >
-> They have nearly width mapping: 2 letter ≈ 1 character.
+> They have the same width mapping: 2 latin characters = 1 CJK character.
 
 ```json
-"'Go Mono', 'Source Han Sans TC', 'Symbols Nerd Font', monospace"
+"'M Plus Code Latin 50', 'Source Han Sans TC', 'Symbols Nerd Font', monospace"
 ```
 
 ## 📦 Other Nice Ones <a name="other"></a>
 
-- For Coding: `Rec Mono Casual`, `Google Sans Code`
+- For Coding: `Go Mono`, `Rec Mono Casual`, `Google Sans Code`
 
 > [!Caution]
 >
@@ -31,10 +31,15 @@
 
 ## 🔗 Links
 
-- [Go Font + Go Mono](https://go.googlesource.com/image/+/refs/heads/master/font/gofont/ttfs/)
+### Used
+
+- [M Plus Latin 50](https://github.com/coz-m/MPLUS_FONTS/tree/master/fonts)
 - [Source Han Sans TC](https://github.com/adobe-fonts/source-han-sans/releases)
 - [Symbols Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases)
 
+#### Others
+
+- [Go Font + Go Mono](https://go.googlesource.com/image/+/refs/heads/master/font/gofont/ttfs/)
 - [Rec Mono Casual](./RecMonoCasual.zip)
 - [Google Sans Code](https://github.com/googlefonts/googlesans-code/releases)
 
