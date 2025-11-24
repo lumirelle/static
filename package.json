@@ -2,17 +2,17 @@
   "name": "static",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.23.0",
   "description": "Host for static files.",
   "type": "module",
   "scripts": {
     "build": "sponsorkit"
   },
   "devDependencies": {
-    "@types/node": "^24.9.1",
+    "@types/node": "^24.10.1",
     "czg": "^1.12.0",
     "sponsorkit": "^17.0.0",
-    "taze": "^19.8.1"
+    "taze": "^19.9.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
