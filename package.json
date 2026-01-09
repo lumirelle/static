@@ -2,22 +2,13 @@
   "name": "static",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "pnpm@10.23.0",
   "description": "Host for static files.",
   "type": "module",
   "scripts": {
-    "build": "sponsorkit"
+    "build": "bun run sponsorkit"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "czg": "^1.12.0",
-    "sponsorkit": "^17.0.0",
-    "taze": "^19.9.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
+    "@types/bun": "^1.3.5",
+    "sponsorkit": "^17.0.0"
   }
 }
