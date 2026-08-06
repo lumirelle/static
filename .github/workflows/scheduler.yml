@@ -5,17 +5,19 @@ on:
   schedule:
     - cron: "0 0 * * *"
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   update-sponsors:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Bun
-        uses: lumirelle/workflows/setup-bun@v3
+      - name: Setup Mise
+        uses: lumirelle/workflows/setup-mise@v10
+        with:
+          cache-prest: 'mise-task,nub'
 
       - name: Update sponsors
-        run: nr build
+        run: mise build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: lumirelle

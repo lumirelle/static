@@ -1,0 +1,18 @@
+[tools]
+node = 'latest'
+'github:nubjs/nub' = 'latest'
+
+[deps.nub]
+description = 'Automatically install Node.js dependencies via nub.'
+sources = ['package.json', 'nub.lock']
+outputs = ['node_modules/']
+run = 'nub pm pin && nub install'
+auto = true
+
+[env]
+_.path = ['{{config_root}}/node_modules/.bin']
+
+[tasks.build]
+description = "Generate sponsor images & data."
+run = "sponsorkit"
+
