@@ -15,6 +15,7 @@ jobs:
         uses: lumirelle/workflows/setup-mise@v10
         with:
           cache-preset: 'mise-task,nub'
+          persist-credentials: true
 
       - name: Update sponsors
         run: mise build
