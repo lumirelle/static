@@ -13,7 +13,7 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.5.1",
     "sponsorkit": "^18.0.0",
     "taze": "^21.1.0"
   }
