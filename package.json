@@ -4,17 +4,17 @@
   "description": "Host for static files.",
   "type": "module",
   "private": true,
-  "packageManager": "nub@0.7.5",
+  "packageManager": "nub@0.9.6",
   "devEngines": {
     "packageManager": {
       "name": "nub",
-      "version": "^0.7.5",
+      "version": "^0.9.6",
       "onFail": "ignore"
     }
   },
   "devDependencies": {
-    "@types/node": "^26.5.1",
+    "@types/node": "^26.6.4",
     "sponsorkit": "^18.0.0",
-    "taze": "^21.1.0"
+    "taze": "^21.3.0"
   }
 }
