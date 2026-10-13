@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^26.6.4
-        version: 26.6.4
+        specifier: ^26.6.5
+        version: 26.6.5
       sponsorkit:
         specifier: ^18.0.0
-        version: 18.0.0(@types/node@26.6.4)
+        version: 18.0.0(@types/node@26.6.5)
       taze:
         specifier: ^21.3.0
         version: 21.3.0
@@ -196,15 +196,15 @@ packages:
   '@quansync/fs@1.1.0':
     resolution: {integrity: sha512-qAPG/t3HqML1TlN7sY/pTbEjzFVAKsMjNNMGheyDosro+kT4iw2KCUoHcVdmliwWjorm4elZbgNQyU2eD97eDg==}
 
-  '@types/node@26.6.4':
-    resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
+  '@types/node@26.6.5':
+    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
 
   ansis@4.4.0:
     resolution: {integrity: sha512-9k3v7xcHwgdO/DruxGIg4HtjvlAZlcnsX/mzqUb1t3NkYnl9kK2UJ+Gq0io+vQf7iT//BD/HB/NBkUR1LWxoeA==}
     engines: {node: '>=14'}
 
-  cac@7.0.0:
-    resolution: {integrity: sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==}
+  cac@7.1.0:
+    resolution: {integrity: sha512-LMDU/U2yA4IPIY8KT0NsNPWEYZvAMkbgyspxJ6btJaYV+WMDOHAZCmB0lsTObiHaRS1V/ztKAl7+TSkTqXyeoA==}
     engines: {node: '>=20.19.0'}
 
   consola@3.4.2:
@@ -492,13 +492,13 @@ snapshots:
     dependencies:
       quansync: 1.0.0
 
-  '@types/node@26.6.4':
+  '@types/node@26.6.5':
     dependencies:
       undici-types: 8.9.0
 
   ansis@4.4.0: {}
 
-  cac@7.0.0: {}
+  cac@7.1.0: {}
 
   consola@3.4.2: {}
 
@@ -561,10 +561,10 @@ snapshots:
 
   semver@7.8.5: {}
 
-  sharp@0.35.5(@types/node@26.6.4):
+  sharp@0.35.5(@types/node@26.6.5):
     dependencies:
       '@img/colour': 1.1.0
-      '@types/node': 26.6.4
+      '@types/node': 26.6.5
       detect-libc: 2.1.2
       semver: 7.8.5
     optionalDependencies:
@@ -596,16 +596,16 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  sponsorkit@18.0.0(@types/node@26.6.4):
+  sponsorkit@18.0.0(@types/node@26.6.5):
     dependencies:
       ansis: 4.4.0
-      cac: 7.0.0
+      cac: 7.1.0
       consola: 3.4.2
       d3-hierarchy: 3.1.2
       normalize-url: 9.0.1
       ofetch: 1.5.1
       p-limit: 7.3.3
-      sharp: 0.35.5(@types/node@26.6.4)
+      sharp: 0.35.5(@types/node@26.6.5)
       unconfig: 7.5.0
     transitivePeerDependencies:
       - '@img/sharp-libvips-dev'
@@ -616,7 +616,7 @@ snapshots:
     dependencies:
       '@antfu/ni': 30.6.0
       '@henrygd/queue': 1.2.0
-      cac: 7.0.0
+      cac: 7.1.0
       obug: 3.0.0
       ofetch: 1.5.1
       package-manager-detector: 1.9.0
