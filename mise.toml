@@ -1,6 +1,6 @@
 [tools]
 node = 'latest'
-'github:nubjs/nub' = 'latest'
+nub = 'latest'
 
 [deps.nub]
 description = 'Automatically install Node.js dependencies via nub.'
